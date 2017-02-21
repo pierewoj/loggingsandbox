@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{842CEB63-6788-4C48-B378-74E251A55BE9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{63BAC676-B9B8-41AB-B678-7346C4388B61}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "LoggingSandbox3", "src\LoggingSandbox3\LoggingSandbox3.xproj", "{CFAB72A9-DDD2-4A01-9EC3-3E070D4640FD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CFAB72A9-DDD2-4A01-9EC3-3E070D4640FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFAB72A9-DDD2-4A01-9EC3-3E070D4640FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFAB72A9-DDD2-4A01-9EC3-3E070D4640FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFAB72A9-DDD2-4A01-9EC3-3E070D4640FD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CFAB72A9-DDD2-4A01-9EC3-3E070D4640FD} = {842CEB63-6788-4C48-B378-74E251A55BE9}
+	EndGlobalSection
+EndGlobal
