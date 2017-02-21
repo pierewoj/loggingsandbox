@@ -42,43 +42,4 @@ namespace LoggingSandbox3
             app.UseMvc();
         }
     }
-    public class MyProvider : ILoggerProvider
-    {
-        public void Dispose()
-        {
-
-        }
-
-        public ILogger CreateLogger(string categoryName)
-        {
-            return new MyLogger();
-        }
-    }
-
-    public class MyLogger : ILogger
-    {
-        public void Log<TState>(LogLevel logLevel, EventId eventId, TState state, Exception exception, Func<TState, Exception, string> formatter)
-        {
-            var formatted = formatter(state, exception);
-
-        }
-
-        public bool IsEnabled(LogLevel logLevel)
-        {
-            return true;
-        }
-
-        public IDisposable BeginScope<TState>(TState state)
-        {
-            return new DummyDisposable();
-        }
-    }
-
-    public class DummyDisposable : IDisposable
-    {
-        public void Dispose()
-        {
-
-        }
-    }
 }
